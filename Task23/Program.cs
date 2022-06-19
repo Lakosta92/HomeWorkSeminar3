@@ -15,5 +15,5 @@ while (count < N)
     count++;
     Console.Write($"{num}, ");
 }
-N = Convert.ToInt32(Math.Pow(N,3));
+N = N*N*N;
 Console.Write(N);
